@@ -39,10 +39,12 @@ Generate your response in markdown format with the following structure:
 
 <output_format>
 ```json
-{{"exercise": "The complete text of the exercise question",
+  {{
+  "exercise": "The complete text of the exercise question",
   "answer": "The complete code solution to the exercise",
   "explanation": "A detailed explanation of the solution and related concepts, and why do this design cons and props",
-  "level": "how hard of  this  exercise,  beginner: a basic practice  intermediate: one part of system, advanced: a complex system oop design e.g kubernetes, google engine"}}
+  "level": "how hard of  this  exercise,  beginner: a basic practice  intermediate: one part of system, advanced: a complex system oop design e.g kubernetes, google engine",
+  }}
 ```
 </output_format>
 
